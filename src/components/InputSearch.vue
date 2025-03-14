@@ -21,7 +21,7 @@
      class="form-control"
      placeholder="Nhập thông tin cần tìm"
      :value="modelValue"
-     @input="updateModeValue"
+     @input="updateModelValue"
      @keyup.enter="submit"
      />
      <div class="input-group-append">
